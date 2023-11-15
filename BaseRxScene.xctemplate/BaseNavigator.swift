@@ -1,4 +1,9 @@
-//___FILEHEADER___
+//
+//  BaseNavigator.swift
+//  MilwaukeeDemo
+//
+//  Created by Thien.Vu2 on 15/11/2023.
+//
 
 import Foundation
 import UIKit
