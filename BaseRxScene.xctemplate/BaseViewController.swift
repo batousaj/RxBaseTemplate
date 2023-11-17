@@ -27,8 +27,13 @@ class BaseViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        hiddenBackButton()
         setupView()
         setupContraints()
+    }
+    
+    private func hiddenBackButton() {
+        self.navigationItem.setHidesBackButton(true, animated: false)
     }
     
     func setupView() {}
